@@ -53,9 +53,12 @@ def add_sentiment(input_file: str, output_file: str) -> None:
         # Process and write rows
         for row in reader:
             text = row[1]
+            print(len(text))
             sentiment = get_sentiment(text)
             row.append(sentiment)
             writer.writerow(row)
+
+# TODO: truncate input to a max size
 
 add_sentiment("dataset_bbc/train.csv", "dataset_bbc/train_w_sentiment.csv")
 add_sentiment("dataset_bbc/test.csv", "dataset_bbc/test_w_sentiment.csv")

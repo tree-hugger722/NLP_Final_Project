@@ -14,4 +14,3 @@ print(logits)
 predicted_class_id = logits.argmax().item()
 print(predicted_class_id)
 print(model.config.id2label[predicted_class_id])
-
