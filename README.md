@@ -9,3 +9,6 @@ label 1 = neutral
 label 2 = positive
 (3) [Text Classification Model](https://huggingface.co/abhishek/autonlp-bbc-news-classification-37229289)
 labels = business, entertainment, politics, sports, tech
+
+Dataset:
+[BBC News Classification](https://www.kaggle.com/c/learn-ai-bbc)
