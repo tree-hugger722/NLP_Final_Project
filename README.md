@@ -7,4 +7,5 @@ Models:
 label 0 = negative
 label 1 = neutral
 label 2 = positive
-(3) [Text Classification Model](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment)
+(3) [Text Classification Model](https://huggingface.co/abhishek/autonlp-bbc-news-classification-37229289)
+labels = business, entertainment, politics, sports, tech
