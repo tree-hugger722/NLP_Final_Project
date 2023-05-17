@@ -1,0 +1,1 @@
+BEST: {'hyperparameters': {'learning rate': 0.01, 'dropout prob': 0.25, 'soft label weight': 0.8, 'is_dropout_input': False, 'batch size': 500, 'hidden_dim1': 128, 'hidden_dim2': 32}, 'train accuracy at best dev iter': 0.6174723227008659, 'best dev accuracy': 0.615, 'best dev iteration': 286}
