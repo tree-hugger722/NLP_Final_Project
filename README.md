@@ -37,4 +37,6 @@ Download the GloVE embeddings pre-trained on Twitter data from the [Stanford web
 
 Run all cells in `baseline_BOW.ipynb` and observe train, validation, and test results in the Jupyter Notebook.
 
-9) Run other baselines and student model + evaluate
+5) Run other baselines and student model + evaluate
+
+Run all cells in `run_models.ipynb`. This tokenizes and embeds the input data. Then, it runs the Logistic Regression with GloVE-embedded input and outputs train, dev, and test accuracy in the Jupyter Notebook. Next, it performs a grid-search to determine the hyper-parameters with the best performance for our baseline and student Deep Averaging Network Model. Finally, this code runs a number of evaluation calculations and produces plots based on the performance outcomes of the models.
