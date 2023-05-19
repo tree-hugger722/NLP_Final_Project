@@ -4,7 +4,7 @@ Emma Neil ('23) and Yufeng Wu ('24)
 
 This repository contains the code for a final project for Prof. Katie Keith's Natural Language Processing Course in Spring 2023 at Williams College.
 
-We are examining the effectiveness of Hinton et al.'s method to compress a large machine learning model into a much smaller one using the distillation loss discussed in the ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/abs/1503.02531) (2015). We attempt to distill a sentiment analysis model which is trained on Twitter data.
+We are examining the effectiveness of Hinton et al.'s method from in ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/abs/1503.02531) (2015) to compress a large machine learning model into a much smaller one using the distillation loss technique. We attempt to distill a sentiment analysis model which is trained on Twitter data.
 
 ### Models
 "Teacher" Model : []()
